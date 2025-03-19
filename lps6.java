@@ -30,6 +30,6 @@ class Main {
         } 
         System.out.println("Enter the string to check:"); 
         input = sc.next() + "$"; 
-        System.out.println(parse('E') && i == input.length() - 1 ? "String is accepted" : "String is rejected"); 
+        System.out.println(parse('E') && i == input.length() - 1 ? "String is accepted" : "Error"); 
     } 
 }
