@@ -20,7 +20,7 @@ public class Main {
             char ch = rhs.charAt(j);
             if(ch<'A' || ch>'Z') continue;
             int idx = nt.indexOf(ch+"");
-            if (j == rhs.length() - 1 || rhs.charAt(j+1)=='/') {
+            if (j == rhs.length() - 1 || rhs.charAt(j+1)=='|') {
                 follow[idx] += follow[nt.indexOf(lhs)];
                 continue;
             }
