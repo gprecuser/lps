@@ -27,7 +27,7 @@ public class Main {
             
             for (int k = j + 1; k < rhs.length(); k++) {
                 char nch = rhs.charAt(k);
-                if(nch=='/'){
+                if(nch=='|'){
                     follow[idx] += follow[nt.indexOf(lhs)];
                     break;
                 }
